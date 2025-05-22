@@ -1,0 +1,157 @@
+.date-picker {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 340px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.month-year-selector {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.month-year-selector select,
+.month-year-selector input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.calendar-cell {
+  text-align: center;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calendar-cell.weekend {
+  color: #bbb;
+  pointer-events: none;
+}
+
+.calendar-cell.selected {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.calendar-cell:hover:not(.weekend) {
+  background-color: #dbeafe;
+}
+
+.apply-button {
+  margin-top: 8px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #1d4ed8;
+}
+
+.predefined-range-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  margin-bottom: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.predefined-range-btn:hover {
+  background-color: #f3f4f6;
+}
+
+.calendar-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.month-year-selector {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.month-year-selector select,
+.month-year-selector input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.month-year-selector input {
+  width: 80px;
+}
+
+
+
+.predefined-ranges {
+  margin-top: 16px;
+}
+
+.predefined-range-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.predefined-range-btn:hover {
+  background-color: #f3f4f6;
+}
+
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+}
+
+.calendar-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.calendar-cell {
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calendar-cell.weekend {
+  color: #bbb;
+  pointer-events: none;
+}
+
+.calendar-cell.selected {
+  background-color: #2563eb;
+  color: white;
+}
+
+.calendar-cell:hover:not(.weekend) {
+  background-color: #dbeafe;
+}
